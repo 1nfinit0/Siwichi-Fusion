@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+:root {
+    font-size: 62.5%;
+    font-family: 'Oxygen', sans-serif;;
+}
+
+body {
+    background-image: url("../image/background.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    position: relative;
+}
+header .header__portada--backgroundimg {
+    background-image: url("../image/portada.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 640px;
+    height: 20rem;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 0 10px 0 black;
+}
+header .header__information {
+    position: absolute;
+    width: 100%;
+    top: 15.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f8f8f8;
+}
+header .header__information img {
+    width: 9rem;
+    border-radius: 100%;
+    box-shadow: 1px 14px 47px 9px rgba(0,0,0,0.49);
+    margin-bottom: 15px;
+}
+header .header__information div {
+    display: flex;
+    margin-top: 10px;
+}
+header .header__information div span {
+    background-image: url("../image/location.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: invert(1);
+    width: 13px;
+    margin-right: 10px;
+}
+header .header__information h1 {
+    font-size: 2.5rem;
+}
+header .header__information div p {
+    font-size: 1.3rem;
+}
+
+header .header__information>p {
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 145px;
+}
+section a {
+    width: 70%;
+    max-width: 310px;
+    height: 40px;
+    border-radius: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    border: 1px solid gray;
+    margin-top: 15px;
+}
+section a .section__a--icono {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+section a .section__a--pregunta{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+section a .section__a--icono img {
+    width: 2.5rem;
+    margin: 0 auto;
+}
+section a .section__a--pregunta p {
+    font-size: 1.3rem;
+    color: #f8f8f8;
+    margin: 0 auto;
+}
+section a:hover {
+    background-color: rgba(83, 82, 82, 0.616);
+}
+section .tiktok {
+    margin: 0 auto;
+    width: 325px;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+main h2 {
+    color: #f8f8f8;
+    font-weight: 300;
+    font-size: 4.5rem;
+}
+main p {
+    text-align: center;
+    max-width: 350px;
+    color: #f8f8f8;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 1rem;
+}
+
+/* Menú escalable */
+
+main>a {
+    width: 90%;
+    max-width: 400px;
+    min-width: 300px;
+    height: 120px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+}
+
+main .main__container .foto {
+    width: 50%;
+    overflow: hidden;
+}
+main .main__container .foto img {
+    width: 100%;
+    height: 100%;
+}
+main .main__container .descripcion {
+    width: 50%;
+    margin: 2rem 0.5rem;
+}
+main .main__container .descripcion h3 {
+    color: #f8f8f8;
+    font-size: 1.5rem;
+}
+main .main__container .descripcion p {
+    color: #f8f8f8;
+    font-size: 1.3rem;
+}
+
+/* Footer */
+
+footer {
+    margin: 20px 0 0 0;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 5rem 0;
+}
+footer ul {
+    margin: 0 auto;
+    width: 50%;
+    max-width: 320px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+footer ul li {
+    display: flex;
+    align-items: center;
+}
+footer ul li img{
+    width: 20px;
+    filter: invert(1);
+}
+footer ul li a {
+    text-decoration: none;
+}
+footer h4 {
+    color: #f8f8f8;
+    padding: 0.5rem 0;
+    text-align: center;
+}

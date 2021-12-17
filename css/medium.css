@@ -1,0 +1,11 @@
+header .header__portada--backgroundimg {
+    border-radius: 0  0 10px 10px;
+    height: 25rem;
+}
+header .header__information {
+    top: 20rem;
+}
+main>a {
+    height: 160px;
+    max-width: 550px;
+}
